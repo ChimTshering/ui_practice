@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 26px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+#main-header {
+  background: #333;
+  color: #fff;
+  height: 66px;
+}
+.logo {
+  padding: 20px;
+  font-size: 20px;
+  display: inline-block;
+}
+#main-header ul {
+  float: right;
+}
+#main-header ul li {
+  display: inline;
+  list-style: none;
+}
+#main-header ul li a {
+  padding: 20px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+}
+#main-header ul li a.current {
+  background: #444;
+  color: #f7c08a;
+}
+
+.text-primary {
+  color: #f7c08a;
+}
+
+.footer {
+  color: #fff;
+  background: #444;
+  text-align: center;
+  padding: 30px;
+}
+
+#testimonial {
+  background: url("../images/showcase.jpg") no-repeat center center/cover;
+  height: 400px;
+  padding-top: 100px;
+  color: #fff;
+}
+.testimonial-content {
+  text-align: center;
+}
+.testimonial-content h1 {
+  font-size: 56px;
+  padding-bottom: 30px;
+}
+.testimonial-content p {
+  padding-bottom: 20px;
+  font-size: 20px;
+  margin: 10px;
+}
+.btn {
+  display: inline-block;
+  padding: 15px 20px;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  /* font-size:20px; */
+}
+.btn:hover {
+  background: #f7c08a;
+  color: #333;
+}
+
+.home-content {
+  float: right;
+  background: #444;
+  width: 50%;
+  padding: 100px 30px 0px 30px;
+  text-align: center;
+  color: #fff;
+  height: 100%;
+}
+#home {
+  height: 400px;
+}
+
+.box {
+  display: inline-block;
+  text-align: center;
+  padding: 40px 20px;
+  height: 100%;
+}
+.box h3 {
+  padding: 20px;
+}
+.box p {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.img {
+  width: 50%;
+  height: 100%;
+  float: left;
+  background: url("../images/photo-1.jpg") no-repeat;
+}
+.about-content {
+  display: input-block;
+  float: left;
+  width: 50%;
+  padding:20px 0px
+}
+.about-content h1{
+  padding-bottom:30px;
+  padding-top:10px;
+  font-size:36px;
+}
+.about-img {
+  display: inline-block;
+  float:right;
+  width:40%;
+  border-radius:100%;
+  overflow:hidden;
+  height:250px;
+  margin: 20px 30px;
+}
+
+#reviews {
+  background:url('../images/test-bg.jpg') no-repeat center center/cover
+}
+.reviewer{
+  display:flex;
+  margin:30px 0px;
+  padding:10px 20px;
+  opacity:0.9
+}
+
+.review-content{
+  padding:100px 0px
+}
+.review-content h2{
+  text-align:center;
+  color:#fff;
+  font-size:36px
+}
+
+#reviews .reviewer img{
+  /* margin:20px; */
+  border-radius:50%;
+  width:170px;
+  overflow:hidden;
+}
+
+#reviews .reviewer p{
+  margin:auto;
+  padding-left:10px
+}
+
+.contact-content{
+  padding: 46px 0px;
+}
+.contact-content h1 {
+  padding-bottom:20px;
+  font-size:40px;
+}
+
+.input-container label {
+  display:block;
+  padding-bottom:8px
+}
+
+.input-container {
+  padding-bottom:16px;
+}
+.input-container textarea {
+  height:150px
+}
+
+.user-input{
+  width:100%;
+  padding:10px 15px
+}
+
+.contact-content form {
+padding:20px 0px;
+}
+.contact-content form button {
+  font-size:18px
+}
+
+
+.bg-gray {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-primary {
+  background: #f7c08a;
+  color: #333;
+}
+.bg-dark {
+  background:#333;
+  color:#fff;
+}
+
+.py-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.px-16 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.m-20 {
+  margin: 20px;
+}
+.clear {
+  clear: both;
+}
+.col-span-3 {
+  width: 33%;
+}
