@@ -107,6 +107,9 @@ header * {
 #people {
   display: flex;
 }
+#people img{
+  max-width:50%
+}
 #people div {
   padding: 20px;
   display: flex;
@@ -139,8 +142,8 @@ header * {
 }
 #cases a {
   display: inline-block;
-  min-width: 270px;
-  height: 180px;
+  min-width: 200px;
+  min-height: 180px;
   margin: 10px;
   overflow: hidden;
 }
@@ -194,35 +197,58 @@ header * {
 #contact {
   display: flex;
 }
+#contact img{
+  max-width:50%;
+}
 #contact form {
   display: flex;
-  background:#f4f4f4;
-  width:100%;
+  background: #f4f4f4;
+  width: 100%;
   flex-direction: column;
   padding: 30px;
   justify-content: center;
 }
-#contact form input{
-  width:100%;
-  margin:10px 0px;
-  padding:14px 10px;
+#contact form input {
+  width: 100%;
+  margin: 10px 0px;
+  padding: 14px 10px;
 }
-#contact form input:focus{
-  outline-color:#28a745;
+#contact form input:focus {
+  outline-color: #28a745;
 }
-#contact form p{
-  font-size:46px;
-  font-weight:100
+#contact form p {
+  font-size: 46px;
+  font-weight: 100;
 }
 
-footer{
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  background:#333;
-  color:#fff;
-  padding:50px;
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #333;
+  color: #fff;
+  padding: 50px;
+  width:100%
 }
-footer i{
-  padding:10px;
+footer i {
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    width:100%
+  }
+  #about {flex-direction:column;}
+  #people{flex-direction:column}
+  #cases div{display:block}
+  #team-members {flex-direction:column}
+  #contact{flex-direction:column}
+  #blog{flex-direction:column-reverse;}
+  #blog img{
+    width:100%
+  }
+}
+@media(max-width:480px){
+  *{display:none}
 }
